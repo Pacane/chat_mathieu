@@ -7,8 +7,8 @@ version: 0.0.1
 environment:
   sdk: '>=1.20.1 <2.0.0'
 
-#dependencies:
-#  path: ^1.4.1
+dependencies:
+  http: '^0.11.3+13'
 
 dev_dependencies:
   browser: ^0.10.0
@@ -16,5 +16,3 @@ dev_dependencies:
 
 transformers:
 - dart_to_js_script_rewriter
-dependencies:
-  http: '^0.11.3+13'
